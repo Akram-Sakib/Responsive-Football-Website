@@ -176,7 +176,7 @@ nav > a:hover{
         width: 470px;
     }
     .highlights-cta h2{
-        font-weight: 700px;
+        font-weight: 700;
         font-size: 48px;
         line-height: 60px;
         margin-bottom: 8px;
@@ -199,6 +199,68 @@ nav > a:hover{
     }
 /* --------------------
     Highligts Section End
+-----------------------*/
+
+/* --------------------
+    Ranking Section Start
+-----------------------*/
+.ranking-section {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+.ranking-container{}
+
+.rank-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.rank-title h2 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.rank-title p{
+    font-size: 20px;
+}
+
+.world-ranking {
+    display: flex;
+    justify-content: space-between;
+}
+.men-ranking{}
+.women-ranking{}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border-bottom: 1px solid #999;
+  padding: 2em;
+  text-align: left;
+}
+span.Country {
+    display: inline-block;
+    height: 35px;
+    margin-left: 25px;
+}
+
+thead{}
+thead tr{}
+th{}
+
+tbody{}
+tbody tr{}
+tbody td{}
+tbody td img{
+        display: inline-block;
+        vertical-align: middle;
+}
+
+
+/* --------------------
+    Ranking Section End
 -----------------------*/
 
 
@@ -228,6 +290,10 @@ footer{
     padding: 16px;
     background-color: #ddd;
     border-radius: 50%;
+    margin-left: 14px;
+}
+.footer-bottom i:first-child{
+    margin-left: 0px;
 }
 .footer-bottom p{
     margin-top: 20px;
