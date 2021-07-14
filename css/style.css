@@ -13,6 +13,7 @@ body{
   --secondary-color: #FF005D;
 }
 
+
 /* --------------------
     Header Section Start
 -----------------------*/
@@ -228,6 +229,10 @@ nav > a:hover{
     display: flex;
     justify-content: space-between;
 }
+
+.world-ranking h3{
+    text-transform: uppercase;
+}
 .men-ranking{}
 .women-ranking{}
 
@@ -258,11 +263,35 @@ tbody td img{
         vertical-align: middle;
 }
 
-
 /* --------------------
     Ranking Section End
------------------------*/
+-----------------------*
 
+
+/* --------------------
+    Partner Section Start
+-----------------------*/
+.partner-section{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+.partner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 80px;
+    grid-column-gap: 15em;
+}
+.partners img{}
+
+/* --------------------
+    Partner Section End
+-----------------------*
 
 
 /* --------------------
@@ -301,3 +330,21 @@ footer{
 /* --------------------
     Footer Section End
 -----------------------*/
+
+
+
+
+
+
+/* ----------------------------------------------------------
+=============================================================
+                        Responsive
+=============================================================
+-------------------------------------------------------------*/
+
+
+/* Mobile Device */
+
+@media only screen and (max-width: 360px) {
+    
+}
