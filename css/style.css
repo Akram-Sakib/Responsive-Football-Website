@@ -206,7 +206,32 @@ nav > a:hover{
 /* --------------------
     Footer Section Start
 -----------------------*/
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0 63px 0;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-container img{
+    width: 483px;
+    margin-bottom: 20px;
+}
 
+.footer-bottom{
+    text-align: center;
+}
+.footer-bottom i{
+    padding: 16px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+.footer-bottom p{
+    margin-top: 20px;
+}
 /* --------------------
     Footer Section End
 -----------------------*/
